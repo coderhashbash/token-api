@@ -16,7 +16,7 @@ app.get('/api/live-price', (req, res) => {
 });
 
 // Start the server
-const port = 3001;
+const port = 3000;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
